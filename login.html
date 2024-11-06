@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Mumbai Hotel and Restaurant Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script type="module" src="login.js" defer></script>
+</head>
+
+<body>
+    <!-- Decorative Shapes -->
+    <div class="shape-circle shape-1"></div>
+    <div class="shape-circle shape-2"></div>
+
+    <!-- Flex container holding the login form and project info -->
+    <div class="main-container">
+        <!-- Login Form -->
+        <div class="container">
+            <h2>Login</h2>
+            <form id="loginForm"> <!-- Updated ID to loginForm -->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit" id="submit">Login</button>
+
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
+            </form>
+        </div>
+
+        <!-- Project Description Section -->
+        <div class="info-rectangle">
+            <!-- Image Above -->
+            <img src="dining.png" alt="People dining" class="project-image">
+
+            <!-- Project Info Text -->
+            <h2>Hotel & Restaurant Guide</h2>
+            <p>
+                Discover the best hotels and restaurants in Mumbai. Tailored recommendations for tourists
+                based on your preferences, location, and more. Enjoy a seamless experience while dining
+                and staying in the city.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

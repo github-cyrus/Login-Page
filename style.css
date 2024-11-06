@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.welcome-greet {
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kabir, .saniya {
+    text-align: center;
+}
+
+.guide ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.guide li {
+    margin-bottom: 10px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+

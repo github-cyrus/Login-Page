@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Mumbai Hotel and Restaurant Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <div class="shape-circle shape-1"></div>
+    <div class="shape-circle shape-2"></div>
+
+    <div class="main-container">
+        <div class="container">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="Enter your country" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password"
+                    required>
+
+                <button type="submit">Register</button>
+
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+            </form>
+        </div>
+
+        <div class="info-rectangle">
+            <img src="dining.png" alt="People dining" class="project-image">
+            <h2>Hotel & Restaurant Guide</h2>
+            <p>
+                Discover the best hotels and restaurants in Mumbai. Tailored recommendations for tourists
+                based on your preferences, location, and more. Enjoy a seamless experience while dining
+                and staying in the city.
+            </p>
+        </div>
+    </div>
+
+    <script type="module" src="register.js"></script>
+</body>
+
+</html>
